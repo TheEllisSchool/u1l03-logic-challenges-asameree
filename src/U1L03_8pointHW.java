@@ -17,10 +17,10 @@ public class U1L03_8pointHW {
 		}
 		JOptionPane.showMessageDialog(null, "Your final answer is: " + finalA);
 		*/
-		String input = JOptionPane.showInputDialog(null, "please type in the number you want multiplyed ");
-		int multT = Integer.parseInt(input);
-		String input1 = JOptionPane.showInputDialog(null, "please type in what you want it to go up to");
-		int upTo = Integer.parseInt(input1);
+		String input2 = JOptionPane.showInputDialog(null, "please type in the number you want multiplyed ");
+		int multT = Integer.parseInt(input2);
+		String input3 = JOptionPane.showInputDialog(null, "please type in what you want it to go up to");
+		int upTo = Integer.parseInt(input3);
 		String ans = "";
 		for (int i = upTo; i > 0; i--) {
 			int answer =  multT * i;
